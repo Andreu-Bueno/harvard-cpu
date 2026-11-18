@@ -1,0 +1,100 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "NOT",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.875,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.6830717,
+    "g": 0.112693079,
+    "b": 0.112693079,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":336150392,
+      "Position":{
+        "x":-13.125,
+        "y":0.625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":662681283,
+      "Position":{
+        "x":-8.25,
+        "y":0.625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"NAND",
+      "ID":825177860,
+      "Label":"",
+      "Position":{
+        "x":-10.375,
+        "y":0.625
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":336150392
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":825177860
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-11.25,"y":0.625},{"x":-11.25,"y":0.625},{"x":-11.25,"y":0.75},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":336150392
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":825177860
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":0,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":-11.25,"y":0.625},{"x":-11.25,"y":0.5},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":825177860
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":662681283
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[]
+}
